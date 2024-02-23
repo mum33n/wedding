@@ -1,0 +1,21 @@
+* {
+  font-family: "Montaga", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: "black";
+}
+.flower::after {
+  content: ""; /* Required for pseudo-elements */
+  position: absolute; /* Position the pseudo-element */
+  top: 0;
+  left: 0;
+  width: 100%; /* Cover the entire container */
+  height: 100%;
+  z-index: -1;
+  background-image: url('/public/Frame.png'); /* Specify the background image */
+  opacity: 0.1; /* Set the opacity of the background */
+  background-position-x: center;
+  background-position-y:100px ;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
